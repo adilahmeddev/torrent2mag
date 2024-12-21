@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Torrent to Magnet Link",
+  "version": "1.5",
+  "description": "Generate magnet links from .torrent files directly from download links.",
+  "permissions": ["contextMenus", "scripting", "notifications"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
